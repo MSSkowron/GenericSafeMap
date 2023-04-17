@@ -23,7 +23,7 @@ import (
 )
 
 func main() {
-    m := genericsafemap.NewGenericSafeMap[string, int]()
+    m := genericsafemap.New[string, int]()
     m.Put("one", 1)
     m.Put("two", 2)
 
